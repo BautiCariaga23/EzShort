@@ -31,7 +31,7 @@ export default function Home() {
       hover:bg-gray-400 hover:text-white hover:border-gray-400 duration-300 w-56 sm:w-auto'>Send</button>
       </div>
       <p className={`${data.get('short') != null ? 'show' : 'hide'} mt-1 text-blue-700 text-sm text-left justify-start w-auto sm:w-72`}>
-        ezshort-five.vercel.app/api/{shortUrl}</p>
+        https://ezshort-five.vercel.app/api/{shortUrl}</p>
       </div>
     </main>
       <footer className="p-4 bg-white text-black border-t border-gray-300">
